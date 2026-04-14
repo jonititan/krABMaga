@@ -135,6 +135,7 @@ fn main() {
 | **distributed-mpi** | Enable distributed model exploration using MPI. At each iteration, the amount of configurations are balanced among your nodes.  |   |  🦀 |   |
 | **bayesian**  | Use ML Rust libraries to use/create function to use `Bayesian Optimization`.|   | 🦀  |   |
 | **parallel**  | Speed-up a single simulation parallelizing agent scheduling during a step.| 🦀  |   |   |
+| **a5grid**  | Enable `SparseA5Grid`, a spatial index data structure based on the pentagonal A5 index for efficient geographic and global-scale simulations. | 🦀  |   |   |
 
 
 ---

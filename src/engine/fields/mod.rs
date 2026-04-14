@@ -11,3 +11,9 @@ pub mod sparse_object_grid_2d;
 
 #[cfg(feature = "distributed_mpi")]
 pub mod kdtree_mpi;
+
+#[cfg(feature = "a5grid")]
+pub mod a5grid;
+
+#[cfg(feature = "a5grid")]
+pub use a5grid::SparseA5Grid;

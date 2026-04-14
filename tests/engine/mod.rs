@@ -1,3 +1,5 @@
+#[cfg(feature = "a5grid")]
+pub mod a5grid;
 pub mod dense_number_grid_2d;
 pub mod dense_object_grid_2d;
 pub mod field_2d;

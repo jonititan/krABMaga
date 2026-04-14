@@ -349,6 +349,10 @@
 /// Main module, with structs for Agents, Fields and Schedule
 pub mod engine;
 
+/// Re-export key field types at crate root for convenience
+#[cfg(feature = "a5grid")]
+pub use engine::fields::a5grid::SparseA5Grid;
+
 #[doc(hidden)]
 /// Module for model exploration
 pub mod explore;
